@@ -50,9 +50,15 @@ ScreenManager:
 
 <HomeScreen>:
     name: "home"
+    
+    Image:
+        source: "logo.png"
+        size_hint_x: None
+        width: 65  
+        pos_hint: {"center_x": 0.5, "center_y": 0.7}
 
     MDLabel:
-        text: "Crair App com Python ;)"
+        text: "Cria App com Python ;)"
         halign: "center"
         font_style: "H4"
         pos_hint: {"center_x": 0.5, "center_y": 0.6}
